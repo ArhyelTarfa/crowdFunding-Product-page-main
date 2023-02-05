@@ -105,7 +105,7 @@
       </section>
       <section class="my-8 border-2 p-7 rounded-lg">
         <div class="block sm:flex pb-6 justify-between">
-          <h3 class="text-xl font-bold">Mahogany Special Edition</h3>
+          <h3  class="text-xl font-bold">Mahogany Special Edition</h3>
           <p class="text-sm  text-Moderatecyan">Pledge $200 or more</p>
         </div>
         <p class="text-Darkgray text-sm">
@@ -124,57 +124,68 @@
     </div>
   </main>
 
-  <div class="modal">
+
+
+
+
+
+
+
+
+  <div class=" bg-white modal p-5 rounded-lg max-w-2xl mx-auto">
     <div class="modalBackdrop"></div>
     <div class="modalBody">
       <button class="modal-close"><img src="./images/icon-close-modal.svg" alt=""></button>
       <h1>Back this project</h1>
-      <p> Want to support us in bringing Mastercraft Bamboo Monitor Riser out in the world?</p>
+      <p class="text-Darkgray text-sm"> Want to support us in bringing Mastercraft Bamboo Monitor Riser out in the world?</p>
       <div class="">
-        <div class="relative my-8 border-2 p-7 rounded-lg">
-          <input type="radio" value="3" name="user" id="user3" class=" peer">
-          <label for="user3" class=" hover:bg-MediumGrey rounded-lg bg-white bg-opacity-90 backdrop-blur-2xl shadow-xl hover:bg-opacity-75 peer-checked:bg-orange-500 text-LightGrey cursor-pointer transition">
+        <div class="flex relative my-8 border-2 p-7 rounded-lg">
+          <input type="radio" class="mr-5 h-6 w-6" value="3" name="user" id="NoPledge" class=" peer">
+          <label for="NoPledge" class=" hover:bg-MediumGrey rounded-lg bg-white bg-opacity-90  hover:bg-opacity-75  text-LightGrey cursor-pointer transition">
             <div>
-              <h2>Pledge with no reward</h2>
-              <p>
+              <h2 class="text-xl font-bold">Pledge with no reward</h2>
+              <p class="text-Darkgray mt-4 text-sm">
                 Choose to support us without a reward if you simply believe in our project. As a backer, 
                 you will be signed up to receive product updates via email.
               </p>
             </div>
           </label>
         </div>
-        <div class="relative my-8 border-2 p-7 rounded-lg">
-          <input type="radio" value="3" name="user" id="user3" class=" peer">
-          <label for="user3" class=" hover:bg-MediumGrey rounded-lg bg-white bg-opacity-90 backdrop-blur-2xl shadow-xl hover:bg-opacity-75 peer-checked:bg-orange-500 text-LightGrey cursor-pointer transition">
-            <div>
+        <div class=" relative my-8 border-2 p-7 rounded-lg">
+          <div class="flex">
+            <input type="radio" class="mr-5 h-6 w-6" value="3" name="user" id="Bamboo" class=" peer">
+            <label for="Bamboo" class=" hover:bg-MediumGrey rounded-lg bg-white  text-LightGrey cursor-pointer transition">
               <div>
-                <h2>Bamboo Stand</h2>
-                <h3>Pledge $25 or more</h3>
-                <h1>101 left</h1>
-              </div>
-              <p>
-                You get an ergonomic stand made of natural bamboo. You've helped us launch our promotional campaign, and
-                you’ll be added to a special Backer member list.
-              </p>
-              <hr>
+                <div class="flex">
+                  <h2 class="text-xl font-bold">Bamboo Stand</h2>
+                  <h3 class=" text-Moderatecyan ml-3 font-bold">Pledge $25 or more</h3>
+                  <h1 class="text-2xl ml-auto mb-6 sm:mb-0 font-bold">101 <sup class="font-normal text-xs">left</sup> </h1>
+                </div>
+                <p class="text-Darkgray my-4 text-sm">
+                  You get an ergonomic stand made of natural bamboo. You've helped us launch our promotional campaign, and
+                  you’ll be added to a special Backer member list.
+                </p>    
               <div>
-                <p>Enter your pledge</p>
-                <input type="number">
-                <button>Continue</button>
+            </label>
+          </div>
+            <hr >
+              <p>Enter your pledge</p>
+              <input type="number">
+              <button>Continue</button>
               </div>
             </div>
-          </label>
+
         </div>
-        <div class="relative my-8 border-2 p-7 rounded-lg">
-          <input type="radio" value="3" name="user" id="user3" class=" peer">
-          <label for="user3" class=" hover:bg-MediumGrey rounded-lg bg-white bg-opacity-90 backdrop-blur-2xl shadow-xl hover:bg-opacity-75 peer-checked:bg-orange-500 text-LightGrey cursor-pointer transition">
+        <div class="flex relative my-8 border-2 p-7 rounded-lg">
+          <input type="radio" class="mr-5 h-6 w-6" value="3" name="user" id="Black" class=" peer">
+          <label for="Black" class=" hover:bg-MediumGrey rounded-lg bg-white hover:bg-opacity-75text-LightGrey cursor-pointer transition">
             <div>
-              <div>
-                <h2>Black Edition Stand</h2>
-                <h3>Pledge $75 or more</h3>
-                <h1>64 left</h1>
+              <div class="flex">
+                <h2 class="text-xl font-bold">Black Edition Stand</h2>
+                <h3 class="text-Moderatecyan ml-3 font-bold" >Pledge $75 or more</h3>
+                <h1 class="text-2xl ml-auto mb-6 sm:mb-0 font-bold">64<sup class="font-normal text-xs">left</sup> </h1>
               </div>
-              <p>
+              <p class="text-Darkgray my-4 text-sm">
                 You get a Black Special Edition computer stand and a personal thank you. You’ll be added to our Backer
                 member list. Shipping is included.
               </p>
@@ -187,21 +198,21 @@
             </div>
           </label>
         </div>
-        <div class="relative my-8 border-2 p-7 rounded-lg">
-          <input type="radio" value="3" name="user" id="user3" class=" peer">
-          <label for="user3" class=" hover:bg-MediumGrey rounded-lg bg-white bg-opacity-90 backdrop-blur-2xl shadow-xl hover:bg-opacity-75 peer-checked:bg-orange-500 text-LightGrey cursor-pointer transition">
+        <div class="flex relative items-start my-8 border-2 p-7 rounded-lg">
+          <input type="radio" class="mr-5 " name="user" id="Mahogany" class=" peer">
+          <label for="Mahogany" class=" hover:bg-MediumGrey rounded-lg bg-white hover:bg-opacity-75 text-LightGrey cursor-pointer transition">
             <div>
-              <div>
-                <h2>Mahogany Special Edition</h2>
-                <h3>Pledge $200 or more</h3>
-                <h1>0 left</h1>
+              <div class="flex">
+                <h2 class="text-xl text-Darkgray font-bold">Mahogany Special Edition</h2>
+                <h3 class="text-Moderatecyan ml-3 font-bold">Pledge $200 or more</h3>
+                <h1 class="text-2xl ml-auto mb-6 sm:mb-0 font-bold">0 <sup class="font-normal text-xs">left</sup> </h1>
               </div>
-              <p>
+              <p class="text-Darkgray text-sm">
                 You get two Special Edition Mahogany stands, a Backer T-Shirt, and a personal thank you. You’ll be added
                 to our Backer member list. Shipping is included.
               </p>
               <hr>
-              <div>
+              <div class="">
                 <p>Enter your pledge</p>
                 <input type="number">
                 <button>Continue</button>
